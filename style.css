@@ -1,0 +1,103 @@
+/* This makes nav bar a flex bar and pushes elements to right */
+.nav-list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1f2937;
+}
+
+.nav-list li a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* This moves the Logo to the far left */
+.logo{
+    justify-self: flex-start;
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+} 
+
+.gallery img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.cabin{
+    width: 500px;
+    height: auto;
+}
+
+.box1{
+    display: flex;
+    align-items: start;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.left{
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.right{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.box2 .gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.box3{
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 10px;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #1F2937;
+}
+
+.centered{
+    text-align: center;
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+html *{
+    font-family: Optima;
+}
+
+.box4{
+    display: flex;
+    flex-direction: column;
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 30px;
+}
